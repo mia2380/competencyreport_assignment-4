@@ -1,0 +1,163 @@
+/*global*/
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(8, 8, 9);
+    color: white;
+}
+p{
+    text-align: justify;
+    line-height: 2;
+}
+h1,h2{
+    text-align: center;
+    text-transform: uppercase;
+}
+h3{
+    text-align: center;
+    font-size: 25px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+img{
+    max-width: 75%;
+}
+/*utilities*/
+.btn{
+    display: block;
+    background-color: #6e6e6e;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+.btn-small{
+    width: 150px;
+    font-size: 14px;
+}
+.btn:hover{
+    color: yellow;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+}
+.container{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*header*/
+header.site-header{
+    flex-basis: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+.my-photo{
+    width: 300%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 60%;
+    border: 10px double pink;
+    padding: 3px;
+    opacity: 7;
+}
+/*menu*/
+.menu-social{
+    text-align: center;
+    margin-top: 30px;
+}
+.menu-social i{
+    font-size: 30px;
+    margin-right: 20px;
+}
+.fa-linkedin{
+    color: #012768;
+}
+.fa-youtube{
+    color: red;
+}
+.fa-instagram{
+    color: #c13584
+}
+/*main*/
+main.site-main{
+    flex-basis: 75%;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+.title-greeting{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+}
+.title-name{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(23, 151, 230);
+    font-size: 22px;
+}
+.title-name span{
+    color: white;
+}
+
+/*Education*/
+.box{
+    background-color: rgb(96, 95, 98);
+    padding: 10px;
+    margin: 30px;
+}
+.degree-header{
+    display: flex;
+    align-items: center;
+}
+.degree-header i{
+    border: 2px solid yellow;
+    border-radius: 50%;
+    padding: 10px;
+}
+.box p{
+    font-size: 14px;
+}
+.degree-title{
+    text-transform: uppercase;
+    color: yellow;
+    word-spacing: 3px;
+    font-weight: 300;
+}
+/*Contact Me*/
+.box-contact{
+    background-color: rgb(40, 34, 36);
+    padding: 10px;
+    margin: 30px;
+}
+  .box-contact .left-side .details{
+    margin: 20px;
+    text-align: center;
+  }
+iframe{
+    width: 100%;
+    height: 300px;
+    align-items: center;
+}
+.fas{
+    color: #c13584;
+}
+.address{
+    font-size: 20px;
+    color: yellow;
+}
+.phone{
+    font-size: 20px;
+    color: yellow;
+}
+.email{
+    font-size: 20px;
+    color: yellow;
+}
